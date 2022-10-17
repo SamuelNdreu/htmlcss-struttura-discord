@@ -5,6 +5,19 @@
     box-sizing: border-box;
 }
 
+header{
+    height: 5rem;
+    background-color: #255ee9;
+    padding-top: 1rem;
+    margin: 0 auto;
+  }
+
+section.container{
+    height: 3rem;
+    width: 900px;
+    margin: auto;
+}
+
 
 .flex{
     display: flex;
@@ -93,9 +106,12 @@ div.nav{
     background-color: rgb(71, 71, 71);
 }
 
-div img{
-    width: 100%;
+div logo{
+    width: 20%;
+    text-align: center;
+    padding-top: 0.45rem;
 }
+
 
 div .link{
 

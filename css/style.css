@@ -11,26 +11,22 @@
     background-repeat: no-repeat;
 }
 
-div.container-text{
-    width: 120rem;
-    height: 30rem;
-    background-color: rgb(78, 21, 247);
-    font-size: 2rem;
-    
+.flex-row{
+    display: flex;
+    justify-content: center;
+
 }
 
-div img{
-    background-color: aqua;
+
+.header-logo{
+    flex-basis: 4rem;
+    background-color: rgb(85, 0, 255);
+
 }
 div nav{
-    display: inline;
-
+align-self: center;
+    width: 40%;
 }
-.header-logo-nav{
-    width: 50%;
-    margin: 0 auto;
-    
-    font-size: 2rem;
-    color: white;
+div button{
+    width: 5%;
 }
-

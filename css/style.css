@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.background-img{
+    background-color: blue;
+    /* background-image: url(../img/jumbo.png); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+div.container-text{
+    width: 120rem;
+    height: 30rem;
+    background-color: rgb(78, 21, 247);
+    font-size: 2rem;
+    
+}
+
+div img{
+    background-color: aqua;
+}
+div nav{
+    display: inline;
+
+}
+.header-logo-nav{
+    width: 50%;
+    margin: 0 auto;
+    
+    font-size: 2rem;
+    color: white;
+}
+

@@ -28,6 +28,18 @@
     margin: 0 auto;
 }
 
+.container-flex{
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 45%;
+    height: 25%;
+    
+
+
+
+}
+
 .box-logo{
     height: 30rem;
     

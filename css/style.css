@@ -5,8 +5,10 @@
 }
 
 .background-img{
-    background-color: blue;
-    /* background-image: url(../img/jumbo.png); */
+    width: 120rem;
+    height: 80rem;
+    
+    background-image: url(../img/jumbo.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -16,17 +18,42 @@
     justify-content: center;
 
 }
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box-logo{
+    height: 30rem;
+    
+}
 
 
 .header-logo{
-    flex-basis: 4rem;
-    background-color: rgb(85, 0, 255);
+    flex-basis: 3rem;
 
 }
 div nav{
-align-self: center;
-    width: 40%;
+    align-self: center;
+    width: 40%; 
 }
+.color-text{
+    color: white;
+    margin-right: 3rem;
+    
+}
+
+
 div button{
     width: 5%;
+}
+
+.container-text{
+    width: 80%;
+    margin: 0 auto;
 }
